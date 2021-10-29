@@ -1,4 +1,4 @@
-# TODO: use relative paths for linking headers
+# TODO: remove relative paths for linking headers
 text-adv: main.o node.o parse.o
 	g++ main.o node.o parse.o -o text-adv
 
