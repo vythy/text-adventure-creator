@@ -1,27 +1,59 @@
-social credit
-you see Xi Jinping Winnie the Pooh meme
-Chinese Citizen,
+Social Credit
+You find an old man walking down the street
+Dear valuable citizen,
 
 1 10
-youu see dirtyy american tear down great ccp flag
-delet evidence
+Help him cross the street
+You spot a stand selling hamburgers after helping the old man
 
-2 5
-an american offers you a borgar
-stop him
+2 5 
+Buy a hamburger
+You see Taiwan flag on Douyin social media app
 
-2 5
-an american offers you a cola
-help him
+3 500
+What is a Taiwan?
+null
+
+3 -30000000
+Like the post
+null
+
+2 15
+Suggest the store owner to sell traditional Rou Jia Mo instead
+You see Taiwan flag on Douyin social media app
+
+3 500
+What is a Taiwan?
+null
+
+3 -30000000
+Like the post
+null
 
 1 10
-you see unoccupied territory
-ignore the treason
+Guide him to a safer path
+You go home and have to decide between studying and playing White Ops: Yell of Duty
+
+2 15
+Study 
+You see Taiwan flag on Douyin social media app
+
+3 500
+What is a Taiwan?
+null
+
+3 -30000000
+Like the post
+null
 
 2 5
-you find out the CEO is america
-capture
+Play video games
+You see Taiwan flag on Douyin social media app
 
-2 5
-you find out the ceo is america
-ignore
+3 500
+What is a Taiwan?
+null
+
+3 -30000000
+Like the post
+null
