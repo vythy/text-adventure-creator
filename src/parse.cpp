@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <fstream>
 #include <iostream>
-#include <queue>
 using namespace std;
 
 Parse::Parse(string story) {
