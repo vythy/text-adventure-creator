@@ -28,7 +28,7 @@ Node* Parse::process() {
 
     int currentLayer = 1, level, scoreAward;
     string answerOption, prompt;
-    queue<int> treePath;
+    vector<int> treePath;
 
     while (fin.peek() != EOF) {
         fin >> level >> scoreAward;
@@ -36,17 +36,17 @@ Node* Parse::process() {
         getline(fin, answerOption);
         getline(fin, prompt);
 
-        if (level < currentLayer) {
-            current = start;
-            for (int i = 1; i < level; ++i) {
-                current = current->dfs(treePath.front(), 0);
-                treePath.pop();
-            }
-            treePath = queue<int>();
+        // retrace path to current node
+        current = start;
+        vector<int> tempPath;
+        for (int i = 1; i < level; ++i) {
+            current = current->dfs(treePath[i-1], 0);
+            tempPath.push_back(treePath[i-1]);
         }
 
-        treePath.push(current->getChildren());
-        current = current->insert(Node(scoreAward, prompt, answerOption));
+        treePath = tempPath;
+        treePath.push_back(current->getChildren());
+        current->insert(Node(scoreAward, prompt, answerOption));
         currentLayer = level+1;
     }
     
