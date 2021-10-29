@@ -9,7 +9,6 @@ Parse::Parse(string story) {
     fileName = story;
 }
 
-// this function was a horrible idea lol
 Node* Parse::process() {
     ifstream fin(fileName);
     if (!fin) {
@@ -34,8 +33,8 @@ Node* Parse::process() {
     while (fin.peek() != EOF) {
         fin >> level >> scoreAward;
         fin.ignore();
-        getline(fin, prompt);
         getline(fin, answerOption);
+        getline(fin, prompt);
 
         if (level < currentLayer) {
             current = start;
