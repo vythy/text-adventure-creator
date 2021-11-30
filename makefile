@@ -6,10 +6,10 @@ main.o: ./src/main.cpp
 	g++ -std=c++11 -static-libstdc++ -c ./src/main.cpp
 
 node.o: ./src/node.cpp ./include/node.hpp
-	g++ -std=c++11 -static-libstdc++-c ./src/node.cpp
+	g++ -std=c++11 -static-libstdc++ -c ./src/node.cpp
 
 parse.o: ./src/parse.cpp ./include/parse.hpp
-	g++ -std=c++11 -static-libstdc++-c ./src/parse.cpp
+	g++ -std=c++11 -static-libstdc++ -c ./src/parse.cpp
 
 clean: 
 	del *.o text-adv.exe
